@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3DFB8;
+    min-height: 100vh;
+}
+.convertor{
+    height: 60vh;
+    width: 30vw;
+    padding: 2rem;
+    background-color: #F2E86D;
+    border-radius: 2rem;
+    box-shadow: -20px 15px 10px 5px #C6A15B;
+}
+h2{
+    line-height: 3rem;
+}
+p, i{
+    font-size: 25px;
+}
+i{
+    margin-top: 30px;
+}
+input, select, button{
+    border: none;
+    height: 5vh;
+    background-color: #F2E86D;
+    width: 100%;
+}
+input{
+    border-radius: 0.75rem;
+    border: 3px solid #D3DFB8;
+    padding: 20px 10px;
+    font-size: 1rem;
+}
+.amount{
+    margin: 1rem 0 1rem 0;
+}
+.dropdowns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown-container{
+    border: 3px solid #D3DFB8;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10vw;
+    padding: 0px 5px;
+}
+.msg-container{
+    margin-top: 2rem;
+}
+#msg-conversion{
+    font-size: 1.2rem;
+}
+button{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: #A38560;
+    color: white;
+    border-radius: 5px;
+}
+i:hover, button:hover, select:hover{
+    cursor: pointer;
+}
